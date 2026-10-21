@@ -47,7 +47,7 @@ const TITLES: Localized = {
 };
 const DESCRIPTIONS: Localized = {
   ar: "مركز إنماء برو للتدريب والتنظيف والإحصاء: تنظيف المنازل والمؤسسات والعمارات والتجمعات السكنية في أم البواقي، عند الطلب أو بعقد. ثقتكم ... أساس نجاحنا.",
-  fr: "UNMAA Pro Center : nettoyage des logements, établissements, immeubles et ensembles résidentiels à Oum El Bouaghi, à la demande ou sous contrat.",
+  fr: "UNMAA Pro Center : nettoyage des logements, établissements, immeubles et ensembles résidentiels à Oum El Bouaghi, à la demande ou sous contrat.",
   en: "UNMAA Pro Center: cleaning for homes, organisations, apartment buildings and residential complexes in Oum El Bouaghi, on demand or under contract.",
 };
 

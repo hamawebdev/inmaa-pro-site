@@ -24,7 +24,7 @@ export function Section({
   labelledBy?: string;
 }) {
   return (
-    <section id={id} aria-labelledby={labelledBy} className={cn("py-16 sm:py-20 lg:py-28", className)}>
+    <section id={id} aria-labelledby={labelledBy} className={cn("py-14 sm:py-16 lg:py-20", className)}>
       {children}
     </section>
   );

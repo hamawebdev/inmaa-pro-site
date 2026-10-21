@@ -69,7 +69,7 @@ export interface Division {
   scope: Item;
   /** Who or what the client is: property type, sector, who signs the contract. */
   kinds: ItemGroup[];
-  /** The spaces his form describes for this kind of site («الوصف الفني للموقع», «مواصفات العمارة»). */
+  /** The spaces his form describes for this kind of site (his «الوصف الفني للموقع», «مواصفات العمارة»), under a visitor's label. */
   spaces: ItemGroup;
   /** «الخدمات المقدمة»: the services ticked on this division's forms, in his order. */
   services: ItemGroup;
@@ -152,7 +152,7 @@ export const divisions: Division[] = [
       },
     ],
     spaces: {
-      label: { ar: "الوصف الفني للموقع", fr: "Les pièces et espaces", en: "Rooms and spaces" },
+      label: { ar: "الغرف والفضاءات", fr: "Les pièces et espaces", en: "Rooms and spaces" },
       items: [
         { ar: "الغرف", fr: "Chambres", en: "Bedrooms" },
         { ar: "المجالس", fr: "Pièces de réception", en: "Sitting rooms" },
@@ -206,7 +206,7 @@ export const divisions: Division[] = [
       },
     ],
     spaces: {
-      label: { ar: "الوصف الفني للموقع", fr: "Les locaux", en: "The premises" },
+      label: { ar: "المحلات والمرافق", fr: "Les locaux", en: "The premises" },
       items: [
         { ar: "المباني", fr: "Bâtiments", en: "Buildings" },
         { ar: "المكاتب", fr: "Bureaux", en: "Offices" },
@@ -242,7 +242,7 @@ export const divisions: Division[] = [
     },
     kinds: [CONTRACTING_PARTIES],
     spaces: {
-      label: { ar: "مواصفات العمارة", fr: "Les parties communes", en: "The common parts" },
+      label: { ar: "الأجزاء المشتركة", fr: "Les parties communes", en: "The common parts" },
       items: [
         { ar: "المداخل", fr: "Entrées", en: "Entrances" },
         { ar: "الطوابق", fr: "Étages", en: "Storeys" },
@@ -421,7 +421,7 @@ export const workerRules: Array<{ title: Item; text: Item }> = [
     title: { ar: "ممتلكات العملاء", fr: "Les biens du client", en: "Your belongings" },
     text: {
       ar: "يجب المحافظة على ممتلكات العميل، ويمنع فتح الخزائن أو الأدراج أو استعمال الأشياء الشخصية دون إذن.",
-      fr: "Les biens du client sont préservés : interdiction d’ouvrir placards ou tiroirs, ou d’utiliser ses affaires personnelles, sans sa permission.",
+      fr: "Les biens du client sont préservés : interdiction d’ouvrir placards ou tiroirs, ou d’utiliser ses affaires personnelles, sans sa permission.",
       en: "The client’s property is looked after: no opening cupboards or drawers, or using personal belongings, without permission.",
     },
   },
@@ -437,7 +437,7 @@ export const workerRules: Array<{ title: Item; text: Item }> = [
     title: { ar: "الشكاوى", fr: "Les réclamations", en: "Complaints" },
     text: {
       ar: "لا يدخل العامل في نزاع مع العميل، تُرفع أي شكوى أو مشكلة فورًا إلى المشرف لمعالجتها رسميًا.",
-      fr: "L’agent n’entre jamais en conflit avec le client : toute réclamation est remontée au superviseur, qui la traite officiellement.",
+      fr: "L’agent n’entre jamais en conflit avec le client : toute réclamation est remontée au superviseur, qui la traite officiellement.",
       en: "Workers never argue with a client: any complaint or problem goes straight to the supervisor, who deals with it formally.",
     },
   },

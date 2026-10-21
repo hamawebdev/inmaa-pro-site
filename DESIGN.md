@@ -54,7 +54,7 @@ Tailwind's default colours are switched off: only these exist.
 | Component | What |
 |---|---|
 | `Container` | Page width (1232 px) and the 16 px phone gutter. Every section's content goes inside one. |
-| `Section` | `<section id>` with the shared vertical rhythm (`py-16 sm:py-20 lg:py-28`). Don't add your own outer padding. |
+| `Section` | `<section id>` with the shared vertical rhythm (`py-14 sm:py-16 lg:py-20`). Don't add your own outer padding. |
 | `SectionHeading` | Eyebrow + h2 + lead, `align="start"` (default) or `"center"`, `tone="dark"` on a dark panel. Every section but the hero opens with one. Gap from heading to content: `mt-10 md:mt-14`. |
 | `Eyebrow` | The pill with the gold dot. |
 | `Button` | Pill. `variant`: `whatsapp` (green, the main call), `primary` (navy), `outline` (navy line, the second call), `light` / `outlineLight` (on dark), `ghost`. `size`: `sm`/`md`/`lg`. With `href` it is a link; WhatsApp links open in a new tab by themselves. |
